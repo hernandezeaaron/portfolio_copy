@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -12,8 +11,8 @@
 
 		<!--Register Container-->
 		<div class="form-container register-container">
-			<form action="#" method="POST">
-				<h1 class="heading">Register</h1>
+			<form action="home.php" method="POST">
+				<h1 class="heading right">Register</h1>
 				<input type="text" name="txt_uName" placeholder="Username">
 				<input type="email" name="txt_eMail" placeholder="Email">
 				<input type="password" name="pWord" placeholder="Password">
@@ -31,8 +30,8 @@
 
 		<!--Log In Container-->
 		<div class="form-container login-container">
-			<form action="#" method="POST">
-				<h1 class="heading">Log In</h1>
+			<form action="home.php" method="POST">
+				<h1 class="heading left">Log In</h1>
 				<input type="email" name="txt_eMail" placeholder="Email">
 				<input type="password" name="pWord" placeholder="Password">
 				<div class="content">
