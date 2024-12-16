@@ -1,3 +1,9 @@
+<<<<<<< HEAD:index.php
+=======
+<!--Hernandez, John Aaron E.
+IT235-->
+
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -17,6 +23,12 @@
 				<input type="email" name="txt_eMail" placeholder="Email">
 				<input type="password" name="pWord" placeholder="Password">
 				<input type="password" name="confirm_pWord" placeholder="Confirm Password">
+			<form action="#" method="POST">
+				<h1 class="heading">Register</h1>
+				<input type="text" name="txt_uName" placeholder="Username" required>
+				<input type="email" name="txt_eMail" placeholder="Email" required>
+				<input type="password" name="pWord" placeholder="Password" required>
+				<input type="password" name="confirm_pWord" placeholder="Confirm Password" required>
 				<button name="btn_register" value="Sign Up" >Sign Up</button>
 				<span>or use your account</span>
 				<div class="social-container">
@@ -34,6 +46,10 @@
 				<h1 class="heading left">Log In</h1>
 				<input type="email" name="txt_eMail" placeholder="Email">
 				<input type="password" name="pWord" placeholder="Password">
+			<form action="#" method="POST">
+				<h1 class="heading">Log In</h1>
+				<input type="email" name="txt_eMail" placeholder="Email" required>
+				<input type="password" name="pWord" placeholder="Password" required>
 				<div class="content">
 					<div class="checkbox">
 						<input type="checkbox" name="chk_rMe" id="chk_rMe">
